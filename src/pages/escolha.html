@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escolher — Me Despache</title>
+  <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body class="m-0 p-0 bg-purple-100">
+
+  <!-- HEADER -->
+  <header class="fixed top-0 left-0 w-full bg-purple-50 shadow-md text-purple-600 z-50">
+    <nav class="flex justify-between items-center px-8 py-4">
+      <div class="flex items-center gap-3">
+        <img src="/public/img/midislogoE.png" alt="Logo" class="h-16">
+        <h1 class="text-2xl font-bold">Me Despache</h1>
+      </div>
+
+      <ul class="flex gap-6">
+        <li><a href="index.html" class="hover:text-amber-400">Home</a></li>
+        <li><a href="#" class="hover:text-amber-400">Sobre</a></li>
+        <li><a href="#" class="hover:text-amber-400">Contato</a></li>
+        <li><a href="login.html" class="hover:text-amber-400 font-semibold">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- SEÇÃO DE ESCOLHA -->
+  <div class="min-h-screen flex items-center justify-center bg-purple-700 pt-24">
+    <div class="flex flex-col items-center gap-10">
+
+      <h2 class="text-3xl font-bold text-purple-700 text-center">Como você deseja usar a plataforma?</h2>
+
+      <div class="flex gap-10">
+
+        <a href="comprar.html"
+          class="bg-purple-700 text-white px-10 py-6 rounded-xl text-2xl font-semibold shadow-lg hover:bg-purple-800 transition-transform duration-300 hover:scale-105">
+          Quero Comprar
+        </a>
+
+        <a href="vender.html"
+          class="bg-amber-400 text-purple-900 px-10 py-6 rounded-xl text-2xl font-semibold shadow-lg hover:bg-amber-500 transition-transform duration-300 hover:scale-105">
+          Quero Vender
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="w-full bg-[#0b0b0f] text-white py-6 px-10 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <img src="/public/img/midislogoE.png" alt="Logo" class="h-12">
+      <span class="text-xl font-semibold">Me Despache</span>
+    </div>
+    <p class="text-sm opacity-80">© 2025 Me Despache — Todos os direitos reservados.</p>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

@@ -1,8 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./*.html",               // <--- isso aqui vê TODOS HTML da raiz
-    "./src/**/*.{html,js,ts,jsx,tsx}", // <--- e os que estão dentro de src
+    "./index.html",               // pega o index da raiz
+    "./pages/**/*.html",          // pega TODOS os HTML dentro de /pages
+    "./src/**/*.{html,js,jsx,ts,tsx}", // pega js e componentes
   ],
   theme: {
     extend: {},

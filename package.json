@@ -4,9 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "npx tailwindcss -i ./src/assets/style.css -o ./dist/output.css --watch",
     "build": "vite build",
     "preview": "vite preview"
+    
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.17",
